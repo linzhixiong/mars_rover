@@ -62,7 +62,7 @@
       <file leaf-file-name="Program.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/console/src/Program.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="30" selection-start="248" selection-end="248" vertical-scroll-proportion="0.45">
+            <state line="19" column="35" selection-start="517" selection-end="517" vertical-scroll-proportion="0.85">
               <folding />
             </state>
           </provider>
@@ -355,7 +355,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/console/src/Program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="248" selection-end="248" vertical-scroll-proportion="0.45">
+        <state line="19" column="35" selection-start="517" selection-end="517" vertical-scroll-proportion="0.85">
           <folding />
         </state>
       </provider>
