@@ -8,7 +8,11 @@ package com.thoughtworks.classes;
  * To change this template use File | Settings | File Templates.
  */
 public class Rover {
-    public Heading heading;
+    public Heading getHeading() {
+        return heading;
+    }
+
+    private Heading heading;
 
     public Rover(int x, int y, Heading heading) {
         this.heading = heading;

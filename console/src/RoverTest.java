@@ -16,27 +16,27 @@ public class RoverTest {
     public void shouldHeadingWestWhenTurnLeftFromNorth() {
         Rover rover = new Rover(0, 0, Heading.N);
         rover.turnLeft();
-        assertEquals(Heading.W, rover.heading);
+        assertEquals(Heading.W, rover.getHeading());
     }
 
     @Test
     public void shouldHeadingSouthWhenTurnLeftFromWest() {
         Rover rover = new Rover(0, 0, Heading.W);
         rover.turnLeft();
-        assertEquals(Heading.S, rover.heading);
+        assertEquals(Heading.S, rover.getHeading());
     }
 
     @Test
     public void shouldHeadingEastWhenTurnLeftFromSouth() {
         Rover rover = new Rover(0, 0, Heading.S);
         rover.turnLeft();
-        assertEquals(Heading.E, rover.heading);
+        assertEquals(Heading.E, rover.getHeading());
     }
 
     @Test
     public void shouldHeadingNorthWhenTurnLeftFromEast() {
         Rover rover = new Rover(0, 0, Heading.E);
         rover.turnLeft();
-        assertEquals(Heading.N, rover.heading);
+        assertEquals(Heading.N, rover.getHeading());
     }
 }
