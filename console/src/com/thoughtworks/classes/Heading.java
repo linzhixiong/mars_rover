@@ -9,26 +9,27 @@ package com.thoughtworks.classes;
  */
 public enum Heading {
     N {
-        public void turnLeft() {
-         this.N= W;
+        @Override
+        public Heading headingLeft() {
+            return Heading.W;
         }
-    }, S, W, E;
-
-    public Heading headingleft(Heading heading) {
-        switch (heading) {
-            case W:
-                heading = S;
-                return heading;
-            case S:
-                heading = E;
-                return heading;
-            case E:
-                heading = N;
-                return heading;
-            default:
-                heading = null;
-                return heading;
+    }, S {
+        @Override
+        Heading headingLeft() {
+            return Heading.E;
         }
-    }
+    }, W {
+        @Override
+        Heading headingLeft() {
+            return Heading.S;
+        }
+    }, E {
+        @Override
+        Heading headingLeft() {
+            return Heading.N;
 
+        }
+    };
+
+    abstract Heading headingLeft();
 }

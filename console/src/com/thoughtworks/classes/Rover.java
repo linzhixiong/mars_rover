@@ -15,9 +15,7 @@ public class Rover {
     }
 
     public void turnLeft() {
-        heading = heading.headingleft(heading);
+        heading = heading.headingLeft();
 
     }
-
-
 }
