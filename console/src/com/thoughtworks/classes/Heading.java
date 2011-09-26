@@ -10,26 +10,64 @@ package com.thoughtworks.classes;
 public enum Heading {
     N {
         @Override
-        public Heading headingLeft() {
+        public Heading turnLeft() {
             return Heading.W;
+        }
+
+        @Override
+        public Position move(Position position) {
+            return new Position(position.getX(), position.getY() + 1);
         }
     }, S {
         @Override
-        Heading headingLeft() {
+        public Position move(Position position) {
+            return new Position(position.getX(), position.getY() - 1);
+        }
+
+        @Override
+        public Heading turnLeft() {
             return Heading.E;
         }
     }, W {
         @Override
-        Heading headingLeft() {
+        public Position move(Position position) {
+            return new Position(position.getX() - 1, position.getY());
+        }
+
+        @Override
+        public Heading turnLeft() {
             return Heading.S;
         }
     }, E {
         @Override
-        Heading headingLeft() {
+        public Position move(Position position) {
+            return new Position(position.getX() + 1, position.getY());
+        }
+
+        @Override
+        public Heading turnLeft() {
             return Heading.N;
 
         }
     };
 
-    abstract Heading headingLeft();
+    public abstract Heading turnLeft();
+
+    public abstract Position move(Position position);
+
+
+    private Position movetoheading(Heading heading, Position position) {
+        switch (heading) {
+            case E:
+                return new Position(position.getX() + 1, position.getY());
+            case W:
+                return new Position(position.getX() - 1, position.getY());
+            case N:
+                return new Position(position.getX(), position.getY() + 1);
+            case S:
+                return new Position(position.getX(), position.getY() - 1);
+            default:
+                return null;
+        }
+    }
 }

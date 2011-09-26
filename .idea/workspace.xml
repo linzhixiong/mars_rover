@@ -79,7 +79,7 @@
       <file leaf-file-name="Program.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/console/src/Program.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="30" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+            <state line="13" column="22" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -88,7 +88,32 @@
       <file leaf-file-name="RoverTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/console/src/RoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="50" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.7631579">
+            <state line="70" column="9" selection-start="2177" selection-end="2177" vertical-scroll-proportion="5.7755775">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Position.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/Position.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="34" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="docComment;class#Position#0" expanded="false" />
+                <element signature="method#Position#0;class#Position#0" expanded="false" />
+                <element signature="method#equals#0;class#Position#0" expanded="false" />
+                <element signature="method#getY#0;class#Position#0" expanded="false" />
+                <element signature="method#getX#0;class#Position#0" expanded="false" />
+                <element signature="method#movetoheading#0;class#Position#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Position.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/classes.jar!/javax/swing/text/Position.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="17" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,7 +122,7 @@
       <file leaf-file-name="Heading.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/Heading.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="29" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+            <state line="58" column="34" selection-start="1351" selection-end="1364" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,7 +131,7 @@
       <file leaf-file-name="Rover.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="23" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
+            <state line="37" column="54" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -147,9 +172,10 @@
         <option value="$PROJECT_DIR$/console/src/program.java" />
         <option value="$PROJECT_DIR$/console/src/Student.java" />
         <option value="$PROJECT_DIR$/console/src/Program.java" />
+        <option value="$PROJECT_DIR$/console/src/RoverTest.java" />
+        <option value="$PROJECT_DIR$/console/src/com/thoughtworks/classes/Position.java" />
         <option value="$PROJECT_DIR$/console/src/com/thoughtworks/classes/Heading.java" />
         <option value="$PROJECT_DIR$/console/src/com/thoughtworks/classes/Rover.java" />
-        <option value="$PROJECT_DIR$/console/src/RoverTest.java" />
       </list>
     </option>
   </component>
@@ -243,99 +269,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RoverTest.shouldHeadingNorthWhenTurnLeftFromEast">
-    <configuration default="false" name="Program" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" />
-      <option name="MAIN_CLASS_NAME" value="Program" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="console" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="59420" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RoverTest.shouldHeadingWestWhenTurnLeftFromNorth" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" />
-      <module name="console" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RoverTest" />
-      <option name="METHOD_NAME" value="shouldHeadingWestWhenTurnLeftFromNorth" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RoverTest.shouldHeadingSouthWhenTurnLeftFromWest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" />
-      <module name="console" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RoverTest" />
-      <option name="METHOD_NAME" value="shouldHeadingSouthWhenTurnLeftFromWest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RoverTest.shouldHeadingNorthWhenTurnLeftFromEast" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" />
-      <module name="console" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RoverTest" />
-      <option name="METHOD_NAME" value="shouldHeadingNorthWhenTurnLeftFromEast" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.RoverTest.shouldDecreaseYWhenHeadingSouthAndMove">
     <configuration default="false" name="RoverTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" />
       <module name="console" />
@@ -345,6 +279,104 @@
       <option name="MAIN_CLASS_NAME" value="RoverTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RoverTest.shouldIncreaseXWhenHeadingEastAndMove" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" />
+      <module name="console" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoverTest" />
+      <option name="METHOD_NAME" value="shouldIncreaseXWhenHeadingEastAndMove" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RoverTest.shouldDecreaseXWhenHeadingWestAndMove" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" />
+      <module name="console" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoverTest" />
+      <option name="METHOD_NAME" value="shouldDecreaseXWhenHeadingWestAndMove" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RoverTest.shouldDecreaseYWhenHeadingSouthAndMove" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" />
+      <module name="console" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoverTest" />
+      <option name="METHOD_NAME" value="shouldDecreaseYWhenHeadingSouthAndMove" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64381" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RoverTest.shouldDecreaseYWhenHeadingNorthAndMove" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" />
+      <module name="console" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoverTest" />
+      <option name="METHOD_NAME" value="shouldDecreaseYWhenHeadingNorthAndMove" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -449,11 +481,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Program" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldHeadingWestWhenTurnLeftFromNorth" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldHeadingSouthWhenTurnLeftFromWest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldHeadingNorthWhenTurnLeftFromEast" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RoverTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.RoverTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldIncreaseXWhenHeadingEastAndMove" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldDecreaseXWhenHeadingWestAndMove" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldDecreaseYWhenHeadingSouthAndMove" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldDecreaseYWhenHeadingNorthAndMove" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -470,7 +502,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="22" width="1280" height="728" extended-state="0" />
+    <frame x="106" y="22" width="1280" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -478,7 +510,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39836067" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -489,7 +521,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24939074" sideWeight="0.6704918" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43442622" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -564,13 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/console/src/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="23" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/classes.jar!/java/awt/List.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="15" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
@@ -578,30 +603,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/console/src/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="23" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/console/src/Program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="30" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+        <state line="13" column="22" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/classes.jar!/javax/swing/text/Position.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="34" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="docComment;class#Position#0" expanded="false" />
+            <element signature="method#Position#0;class#Position#0" expanded="false" />
+            <element signature="method#equals#0;class#Position#0" expanded="false" />
+            <element signature="method#getY#0;class#Position#0" expanded="false" />
+            <element signature="method#getX#0;class#Position#0" expanded="false" />
+            <element signature="method#movetoheading#0;class#Position#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/Heading.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="34" selection-start="1351" selection-end="1364" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="23" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/Heading.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="29" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+        <state line="37" column="54" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/console/src/RoverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="50" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.7631579">
+        <state line="70" column="9" selection-start="2177" selection-end="2177" vertical-scroll-proportion="5.7755775">
           <folding />
         </state>
       </provider>

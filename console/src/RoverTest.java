@@ -39,4 +39,42 @@ public class RoverTest {
         rover.turnLeft();
         assertEquals(Heading.N, rover.getHeading());
     }
+
+    @Test
+    public void shouldIncreaseXWhenHeadingEastAndMove() {
+        com.thoughtworks.classes.Position position = new com.thoughtworks.classes.Position(0, 0);
+        Rover rover = new Rover(position, Heading.E);
+        rover.move();
+
+        assertEquals(new com.thoughtworks.classes.Position(1, 0), rover.getPosition());
+    }
+
+
+    @Test
+    public void shouldDecreaseXWhenHeadingWestAndMove() {
+        com.thoughtworks.classes.Position position = new com.thoughtworks.classes.Position(0, 0);
+        Rover rover = new Rover(position, Heading.W);
+        rover.move();
+
+        assertEquals(new com.thoughtworks.classes.Position(-1, 0), rover.getPosition());
+    }
+
+    @Test
+    public void shouldDecreaseYWhenHeadingNorthAndMove() {
+        com.thoughtworks.classes.Position position = new com.thoughtworks.classes.Position(0, 0);
+        Rover rover = new Rover(position, Heading.N);
+        rover.move();
+
+        assertEquals(new com.thoughtworks.classes.Position(0, 1), rover.getPosition());
+    }
+
+    @Test
+    public void shouldDecreaseYWhenHeadingSouthAndMove() {
+        com.thoughtworks.classes.Position position = new com.thoughtworks.classes.Position(0, 0);
+        Rover rover = new Rover(position, Heading.S);
+        rover.move();
+
+        assertEquals(new com.thoughtworks.classes.Position(0, -1), rover.getPosition());
+    }
+
 }
