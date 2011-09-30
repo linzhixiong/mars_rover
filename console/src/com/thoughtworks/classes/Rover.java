@@ -38,4 +38,31 @@ public class Rover {
         this.position = heading.move(position);
     }
 
+    @Override
+    public String toString() {
+        return position.toString() + " " + heading.toString();    //To change body of overridden methods use File | Settings | File Templates
+    }
+
+    public void executeCommand(char command) {
+        if (command == 'L') {
+            turnLeft();
+        }
+        if (command == 'R') {
+            turnRight();
+        }
+        if (command == 'M') {
+            move();
+        }
+    }
+
+    public void executeCommands(String commands) {
+        char[] commandArray=commands.toCharArray();
+        for (char command : commandArray) {
+            executeCommand(command);
+        }
+    }
+
+    public void turnRight() {
+        heading = heading.turnRight();
+    }
 }

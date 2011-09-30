@@ -43,6 +43,12 @@ public class Position {
         return movetoheading(heading, this);
     }
 
+    @Override
+    public String toString() {
+        return Integer.toString(x) + " " + Integer.toString(y);
+
+    }
+
     private Position movetoheading(Heading heading, Position position) {
         switch (heading) {
             case E:
@@ -57,4 +63,6 @@ public class Position {
                 return null;
         }
     }
+
+
 }
