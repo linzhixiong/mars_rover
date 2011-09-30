@@ -9,28 +9,7 @@ import java.util.ArrayList;
  */
 public class Program {
     public static void main(String[] args) {
-//        System.out.println("");
-//
-//        ArrayList<String> names;
-//        names = new ArrayList<String>();
-//        names.add("linzhixiong");
-//        names.add("xuebo");
-//        names.add("xuebo");
-//        names.add("jinming");
-//        printer(names);
-//        ArrayList list = new ArrayList();
-//        list.add("dfdfdf");
-//        list.add(11);
-//        // System.out.println(list);
-//        HashSet set = new HashSet(names);
-//        for (Object name : set) {
-//            System.out.println(name.toString());
-//        }
-//        Student stu = new Student("linzhixiong");
-//        List<Student> ls = new List<Student>();
-//        ls.add(stu);
-//        ls.add(stu);
-//        ls.add(stu);
+
 
 
 
