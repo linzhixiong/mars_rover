@@ -88,7 +88,7 @@
       <file leaf-file-name="RoverTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/RoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="11" selection-start="442" selection-end="442" vertical-scroll-proportion="0.62983423">
+            <state line="12" column="3" selection-start="260" selection-end="260" vertical-scroll-proportion="-0.36279926">
               <folding />
             </state>
           </provider>
@@ -529,7 +529,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24906467" sideWeight="0.56633663" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43366337" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43366337" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -642,7 +642,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/RoverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="11" selection-start="442" selection-end="442" vertical-scroll-proportion="0.62983423">
+        <state line="12" column="3" selection-start="260" selection-end="260" vertical-scroll-proportion="-0.36279926">
           <folding />
         </state>
       </provider>
