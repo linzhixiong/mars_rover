@@ -76,10 +76,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Program.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Program.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/console/src/Program.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="678" selection-end="678" vertical-scroll-proportion="0.45714286">
+            <state line="22" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,10 +112,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Heading.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Heading.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/Heading.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="0" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.0">
+            <state line="17" column="49" selection-start="377" selection-end="440" vertical-scroll-proportion="0.49887133">
               <folding />
             </state>
           </provider>
@@ -124,7 +124,7 @@
       <file leaf-file-name="Rover.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="39" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.0">
+            <state line="10" column="15" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,10 +157,10 @@
         <option value="$PROJECT_DIR$/console/src/Student.java" />
         <option value="$PROJECT_DIR$/console/src/RoverTest.java" />
         <option value="$PROJECT_DIR$/console/src/com/thoughtworks/classes/Position.java" />
-        <option value="$PROJECT_DIR$/console/src/com/thoughtworks/classes/Heading.java" />
-        <option value="$PROJECT_DIR$/console/src/com/thoughtworks/classes/Rover.java" />
         <option value="$PROJECT_DIR$/console/src/com/thoughtworks/classes/RoverTest.java" />
         <option value="$PROJECT_DIR$/console/src/Program.java" />
+        <option value="$PROJECT_DIR$/console/src/com/thoughtworks/classes/Heading.java" />
+        <option value="$PROJECT_DIR$/console/src/com/thoughtworks/classes/Rover.java" />
       </list>
     </option>
   </component>
@@ -537,8 +537,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12987708" sideWeight="0.5065574" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49344262" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12987708" sideWeight="0.7737705" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2262295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -635,20 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/Heading.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/Rover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="39" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/RoverTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="90" column="4" selection-start="2573" selection-end="2573" vertical-scroll-proportion="0.0">
@@ -658,7 +644,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/console/src/Program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="678" selection-end="678" vertical-scroll-proportion="0.45714286">
+        <state line="22" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/Rover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="15" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/Heading.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="49" selection-start="377" selection-end="440" vertical-scroll-proportion="0.49887133">
           <folding />
         </state>
       </provider>

@@ -70,6 +70,11 @@ public enum Heading {
         }
     };
 
+    public Heading te() {
+        return Heading);
+
+    }
+
     public abstract Heading turnLeft();
 
     public abstract Position move(Position position);
