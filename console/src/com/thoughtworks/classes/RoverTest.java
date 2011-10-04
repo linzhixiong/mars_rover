@@ -91,6 +91,14 @@ public class RoverTest {
 
 
     @Test
+    public void shouldAcceptMultipleCommandsRM() throws Exception {
+        Rover rover = new Rover(new Position(3, 3), Heading.E);
+        rover.executeCommands("MMRMMRMRRM");
+        assertEquals("5 1 E", rover.toString());
+    }
+
+
+    @Test
     public void shouldTurnLeftWhenReceiveL() throws Exception {
         Rover rover = new Rover(new Position(0, 0), Heading.S);
         rover.executeCommand('L');

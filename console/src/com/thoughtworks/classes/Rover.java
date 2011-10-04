@@ -25,7 +25,7 @@ public class Rover {
     }
 
     public void turnLeft() {
-        heading = heading.turnLeft();
+        heading = heading.turnLeft1();
 
     }
 
@@ -55,7 +55,7 @@ public class Rover {
     }
 
     public void executeCommands(String commands) {
-        char[] commandArray=commands.toCharArray();
+        char[] commandArray = commands.toCharArray();
         for (char command : commandArray) {
             executeCommand(command);
         }

@@ -23,21 +23,6 @@ public enum Heading {
         public Heading turnRight() {
             return Heading.E;
         }
-    }, S {
-        @Override
-        public Position move(Position position) {
-            return new Position(position.getX(), position.getY() - 1);
-        }
-
-        @Override
-        public Heading turnRight() {
-            return Heading.W;
-        }
-
-        @Override
-        public Heading turnLeft() {
-            return Heading.E;
-        }
     }, W {
         @Override
         public Position move(Position position) {
@@ -52,6 +37,21 @@ public enum Heading {
         @Override
         public Heading turnRight() {
             return Heading.N;
+        }
+    }, S {
+        @Override
+        public Position move(Position position) {
+            return new Position(position.getX(), position.getY() - 1);
+        }
+
+        @Override
+        public Heading turnRight() {
+            return Heading.W;
+        }
+
+        @Override
+        public Heading turnLeft() {
+            return Heading.E;
         }
     }, E {
         @Override
@@ -70,9 +70,8 @@ public enum Heading {
         }
     };
 
-    public Heading te() {
-        return Heading);
-
+    public Heading turnLeft1() {
+        return Heading.values()[(this.ordinal() + 1) % 4];
     }
 
     public abstract Heading turnLeft();
@@ -80,4 +79,8 @@ public enum Heading {
     public abstract Position move(Position position);
 
     public abstract Heading turnRight();
+
+    public Heading turnRight1() {
+        return Heading.values()[(this.ordinal() + 3) % 4];
+    }
 }
