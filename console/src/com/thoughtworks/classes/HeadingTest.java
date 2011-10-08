@@ -4,13 +4,6 @@ import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
 
-/**
- * Created by IntelliJ IDEA.
- * User: twer
- * Date: 10/4/11
- * Time: 6:56 AM
- * To change this template use File | Settings | File Templates.
- */
 public class HeadingTest {
     @Test
     public void shouldBeHeadingWestWhenTurnLeftFromNorth() {
@@ -69,5 +62,35 @@ public class HeadingTest {
         Heading heading = Heading.E;
         Heading newHeading = heading.turnRight();
         assertEquals(Heading.S, newHeading);
+    }
+
+    @Test
+    public void shouldIncreaseXWhenHeadingEastAndMove() {
+        Heading e = Heading.E;
+        Position position = e.move(new Position(0, 0));
+        assertEquals(new Position(1, 0), position);
+    }
+
+
+    @Test
+    public void shouldDecreaseXWhenHeadingWestAndMove() {
+        Heading w = Heading.W;
+        Position position = w.move(new Position(0, 0));
+        assertEquals(new Position(-1, 0), position);
+    }
+
+    @Test
+    public void shouldDecreaseYWhenHeadingNorthAndMove() {
+        Heading n = Heading.N;
+        Position position = n.move(new Position(0, 0));
+        assertEquals(new Position(0, 1), position);
+    }
+
+    @Test
+    public void shouldDecreaseYWhenHeadingSouthAndMove() {
+        Heading s = Heading.S;
+        Position position = s.move(new Position(0, 0));
+
+        assertEquals(new Position(0, -1), position);
     }
 }

@@ -4,13 +4,6 @@ import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
 
-/**
- * Created by IntelliJ IDEA.
- * User: twer
- * Date: 9/25/11
- * Time: 1:12 PM
- * To change this template use File | Settings | File Templates.
- */
 public class RoverTest {
     @Test
     public void shouldHeadingWestWhenTurnLeftFromNorth() {
