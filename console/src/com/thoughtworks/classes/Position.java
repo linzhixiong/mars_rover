@@ -9,15 +9,16 @@ public class Position {
         this.y = y;
     }
 
-    public Position move(int x, int y) {
-        return new Position(this.getX() + x, this.getY() + y);
+    public void move(int x, int y) {
+        this.x += x;
+        this.y += y;
     }
 
-    public int getY() {
+    private int getY() {
         return y;
     }
 
-    public int getX() {
+    private int getX() {
         return x;
     }
 
@@ -26,8 +27,7 @@ public class Position {
         Position position;
         if (o == null) {
             return false;
-        }
-        else if (!o.getClass().equals(this.getClass())) {
+        } else if (!o.getClass().equals(this.getClass())) {
             return false;
         }
 
@@ -37,7 +37,7 @@ public class Position {
 
     @Override
     public int hashCode() {
-        return this.x*17+this.y*7;
+        return this.x * 17 + this.y * 7;
     }
 
     @Override

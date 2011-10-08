@@ -62,16 +62,16 @@
       <file leaf-file-name="Program.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/console/src/Program.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="204" selection-end="205" vertical-scroll-proportion="0.0">
+            <state line="16" column="35" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoverTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RoverTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/RoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.27403846">
+            <state line="7" column="9" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeadingTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="HeadingTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/HeadingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="-3.4615386">
+            <state line="58" column="0" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.2797784">
               <folding />
             </state>
           </provider>
@@ -98,7 +98,7 @@
       <file leaf-file-name="Position.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/Position.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="22" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
+            <state line="13" column="16" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,7 +107,7 @@
       <file leaf-file-name="Heading.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/Heading.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
+            <state line="7" column="38" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,7 +134,7 @@
       <file leaf-file-name="Rover.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
+            <state line="34" column="29" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,12 +157,12 @@
         <option value="$PROJECT_DIR$/console/src/program.java" />
         <option value="$PROJECT_DIR$/console/src/Student.java" />
         <option value="$PROJECT_DIR$/console/src/RoverTest.java" />
-        <option value="$PROJECT_DIR$/console/src/com/thoughtworks/classes/HeadingTest.java" />
-        <option value="$PROJECT_DIR$/console/src/com/thoughtworks/classes/Position.java" />
         <option value="$PROJECT_DIR$/console/src/Program.java" />
         <option value="$PROJECT_DIR$/console/src/com/thoughtworks/classes/RoverTest.java" />
         <option value="$PROJECT_DIR$/console/src/com/thoughtworks/classes/Rover.java" />
+        <option value="$PROJECT_DIR$/console/src/com/thoughtworks/classes/Position.java" />
         <option value="$PROJECT_DIR$/console/src/com/thoughtworks/classes/Heading.java" />
+        <option value="$PROJECT_DIR$/console/src/com/thoughtworks/classes/HeadingTest.java" />
       </list>
     </option>
   </component>
@@ -278,7 +278,35 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RoverTest">
+  <component name="RunManager" selected="JUnit.RoverTest.shouldHeadingWestWhenTurnLeftFromNorth">
+    <configuration default="false" name="RoverTest.shouldDecreaseXWhenHeadingWestAndMove" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="console" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks.classes" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.classes.RoverTest" />
+      <option name="METHOD_NAME" value="shouldDecreaseXWhenHeadingWestAndMove" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="HeadingTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false">
         <pattern>
@@ -307,7 +335,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="RoverTest.shouldAcceptMultipleCommandsRM" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="RoverTest.shouldDecreaseYWhenHeadingNorthAndMove" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false">
         <pattern>
           <option name="PATTERN" value="com.thoughtworks.classes.*" />
@@ -319,7 +347,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.thoughtworks.classes" />
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.classes.RoverTest" />
-      <option name="METHOD_NAME" value="shouldAcceptMultipleCommandsRM" />
+      <option name="METHOD_NAME" value="shouldDecreaseYWhenHeadingNorthAndMove" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -335,63 +363,24 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="HeadingTest.shouldDecreaseYWhenHeadingSouthAndMove" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
-        <pattern>
-          <option name="PATTERN" value="com.thoughtworks.classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="console" />
+    <configuration default="false" name="Program" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" />
+      <option name="MAIN_CLASS_NAME" value="Program" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.thoughtworks.classes" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.classes.HeadingTest" />
-      <option name="METHOD_NAME" value="shouldDecreaseYWhenHeadingSouthAndMove" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="HeadingTest.shouldIncreaseXWhenHeadingEastAndMove" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
-        <pattern>
-          <option name="PATTERN" value="com.thoughtworks.classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <module name="console" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.thoughtworks.classes" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.classes.HeadingTest" />
-      <option name="METHOD_NAME" value="shouldIncreaseXWhenHeadingEastAndMove" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
       <envs />
-      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="RoverTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="RoverTest.shouldHeadingWestWhenTurnLeftFromNorth" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false">
         <pattern>
           <option name="PATTERN" value="com.thoughtworks.classes.*" />
@@ -403,8 +392,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.thoughtworks.classes" />
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.classes.RoverTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="shouldHeadingWestWhenTurnLeftFromNorth" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -524,11 +513,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.HeadingTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldAcceptMultipleCommandsRM" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.HeadingTest.shouldDecreaseYWhenHeadingSouthAndMove" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.HeadingTest.shouldIncreaseXWhenHeadingEastAndMove" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RoverTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldDecreaseXWhenHeadingWestAndMove" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.HeadingTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldDecreaseYWhenHeadingNorthAndMove" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Program" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RoverTest.shouldHeadingWestWhenTurnLeftFromNorth" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -564,7 +553,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19658814" sideWeight="0.7295082" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2704918" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3180328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -650,13 +639,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/classes.jar!/javax/swing/text/Position.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="56" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/classes.jar!/java/lang/Enum.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="51" selection-start="321" selection-end="321" vertical-scroll-proportion="0.049608354">
@@ -664,44 +646,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/Rover.java">
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/classes.jar!/javax/swing/text/Position.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/console/src/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="204" selection-end="205" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/Heading.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
+        <state line="10" column="56" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/Position.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="22" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
+        <state line="13" column="16" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/HeadingTest.java">
+    <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="-3.4615386">
+        <state line="34" column="29" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/src/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="35" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/RoverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.27403846">
+        <state line="7" column="9" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/Heading.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="38" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/src/com/thoughtworks/classes/HeadingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="0" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.2797784">
           <folding />
         </state>
       </provider>

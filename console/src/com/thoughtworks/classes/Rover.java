@@ -27,7 +27,20 @@ public class Rover {
     }
 
     public void move() {
-        this.position = heading.move(position);
+        switch (heading) {
+            case N:
+                position.move(0, 1);
+                break;
+            case W:
+                position.move(-1, 0);
+                break;
+            case S:
+                position.move(0, -1);
+                break;
+            case E:
+                position.move(1, 0);
+                break;
+        }
     }
 
     @Override
